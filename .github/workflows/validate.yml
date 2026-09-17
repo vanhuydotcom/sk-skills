@@ -1,0 +1,23 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  skills:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate SKILL.md frontmatter against the Agent Skills spec
+        run: |
+          pipx install skills-ref || pip install skills-ref
+          fail=0
+          for d in skills/*/; do
+            skills-ref validate "$d" || fail=1
+          done
+          exit $fail
+
+      - name: Check install.sh syntax
+        run: bash -n install.sh
