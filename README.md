@@ -44,8 +44,9 @@ left alone.
 
 | Skill | Purpose |
 |---|---|
+| `sk-brainstorm` | Pressure-test a raw idea: challenge the premise, generate real alternatives |
+| `sk-plan` | Turn a settled outcome into phases that can each be verified |
 | `sk-scout` | Find the files and call paths behind a task, read-only |
-| `sk-plan` | Fix the outcome and acceptance criteria, then split into verifiable phases |
 | `sk-implement` | Write code for settled scope, matching local conventions, verified before done |
 | `sk-debug` | Prove the root cause with evidence, then fix at the cause |
 | `sk-test` | Pick the cheapest test level that catches the defect; test behaviour, not internals |

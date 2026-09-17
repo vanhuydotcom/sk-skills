@@ -1,6 +1,6 @@
 ---
 name: sk-plan
-description: Turn a vague request into an agreed outcome and an executable plan, by fixing the outcome, constraints, non-goals and acceptance criteria, comparing the viable approaches, and splitting the work into phases that can each be verified. Use before starting multi-step work, when a request has more than one reasonable interpretation, or when several designs would all technically work.
+description: Turn a settled outcome into an executable plan by splitting the work into phases that each leave the system working and can be verified on their own. Use once the approach is chosen and the acceptance criteria are known, before starting multi-step delivery. If the outcome or the approach is still open, brainstorm first.
 license: MIT
 metadata:
   author: huydv
@@ -12,9 +12,9 @@ metadata:
 A plan exists to prevent building the wrong thing and to make "done" checkable. If the work is
 one obvious change with one obvious verification, skip this and do it.
 
-## 1. Fix the outcome before anything else
+## 1. Start from a settled outcome
 
-Write four things down. If you cannot, you do not yet understand the request.
+A plan needs these four before it can be written:
 
 - **Outcome** — what is true after this ships, stated as observable behaviour rather than as a
   task list. "Operators can cancel a dispatched order" is an outcome; "add a cancel endpoint"
@@ -26,17 +26,20 @@ Write four things down. If you cannot, you do not yet understand the request.
 - **Acceptance criteria** — the checks that decide the work is finished. Each must be able to
   fail.
 
+If they already exist — from an accepted design, a ticket, or an earlier conversation — reuse
+them and move on. If you cannot write them, the approach is not settled yet: brainstorm first,
+because planning an unsettled outcome produces phases for the wrong work.
+
 Discover what you can from the repo and the running system before asking. Ask only about a
-decision that cannot be recovered from evidence — a product trade-off, a priority, a deadline.
-State the assumption and continue when an answer would not change the next step.
+decision that cannot be recovered from evidence. State the assumption and continue when an answer
+would not change the next step.
 
-## 2. Compare approaches, then commit
+## 2. Confirm the approach
 
-Only when more than one design genuinely works. For each candidate name the mechanism, the cost,
-and the thing it makes hard later. Then recommend one and say why. A list of options with no
-recommendation pushes the decision back to the reader and is not a plan.
+The approach should already be chosen. Restate it in one sentence, along with the assumption it
+rests on, so a reader who disagrees can object before the phases are built on it.
 
-Reject the approach that is easiest to write but hardest to verify. Reversibility is worth more
+Reject an approach that is easiest to write but hardest to verify. Reversibility is worth more
 than elegance: prefer the design you can withdraw in one commit.
 
 ## 3. Split into phases
