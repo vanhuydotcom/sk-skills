@@ -51,12 +51,16 @@ left alone.
 | `sk-test` | Pick the cheapest test level that catches the defect; test behaviour, not internals |
 | `sk-code-review` | Review a diff for correctness defects with reproducible triggers |
 | `sk-git` | Conventional commits, one concern per commit, secret scan before publishing |
+| `sk-system-design` | Design from constraints: boundaries, sync vs events, consistency, failure |
+| `sk-api` | Design and change API contracts without breaking existing callers |
 | `sk-go-service` | Handler, service and repository work in a Go backend |
 | `sk-react` | React and TypeScript components: state, effects, data fetching, re-renders |
+| `sk-python` | Python traps, typing, environment and packaging, pytest structure |
 | `sk-sql` | Schema, queries, indexes, and migrations with a real rollback path |
-| `sk-api` | Design and change API contracts without breaking existing callers |
+| `sk-llm-app` | LLM features: evals first, prompting, retrieval, agents, cost and injection |
 | `sk-security` | Find real security defects, starting from what the code protects |
 | `sk-perf` | Measure, find the dominant cost, fix that, measure again |
+| `sk-algorithms` | Interview and contest problems: constraints to complexity to pattern |
 | `sk-incident` | Triage a live problem: blast radius, mitigate first, capture evidence |
 | `sk-docs` | Update the smallest owning surface, and verify every claim against source |
 | `sk-explain` | Explain grounded in the source, mental model before detail |
