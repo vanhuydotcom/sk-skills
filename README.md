@@ -45,8 +45,23 @@ left alone.
 | Skill | Purpose |
 |---|---|
 | `sk-scout` | Find the files and call paths behind a task, read-only |
+| `sk-plan` | Fix the outcome and acceptance criteria, then split into verifiable phases |
+| `sk-implement` | Write code for settled scope, matching local conventions, verified before done |
+| `sk-debug` | Prove the root cause with evidence, then fix at the cause |
+| `sk-test` | Pick the cheapest test level that catches the defect; test behaviour, not internals |
 | `sk-code-review` | Review a diff for correctness defects with reproducible triggers |
+| `sk-git` | Conventional commits, one concern per commit, secret scan before publishing |
 | `sk-go-service` | Handler, service and repository work in a Go backend |
+| `sk-react` | React and TypeScript components: state, effects, data fetching, re-renders |
+| `sk-sql` | Schema, queries, indexes, and migrations with a real rollback path |
+| `sk-api` | Design and change API contracts without breaking existing callers |
+| `sk-security` | Find real security defects, starting from what the code protects |
+| `sk-perf` | Measure, find the dominant cost, fix that, measure again |
+| `sk-incident` | Triage a live problem: blast radius, mitigate first, capture evidence |
+| `sk-docs` | Update the smallest owning surface, and verify every claim against source |
+| `sk-explain` | Explain grounded in the source, mental model before detail |
+| `sk-handoff` | Capture in-progress work so another session can resume cold |
+| `sk-diagram` | Mermaid diagrams that show a real mechanism |
 
 ## Adding a skill
 
