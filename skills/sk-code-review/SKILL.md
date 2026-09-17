@@ -1,5 +1,5 @@
 ---
-name: hd-code-review
+name: sk-code-review
 description: Review a diff, branch, commit or merge request for correctness defects, and report each finding with the concrete input that makes it fail. Use before opening or merging a change, when asked to review code, or when a change touches shared contracts, auth, money, tenancy or data migrations.
 license: MIT
 metadata:

@@ -1,5 +1,5 @@
 ---
-name: hd-scout
+name: sk-scout
 description: Locate the files and call paths relevant to a task before changing anything, and report them as a short map with exact paths and line numbers. Use when starting work in an unfamiliar area, tracing who calls or writes something, answering "where is X handled", or gathering context before planning, reviewing or debugging.
 license: MIT
 metadata:

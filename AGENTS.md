@@ -1,4 +1,4 @@
-# hd-skills
+# sk-skills
 
 A personal set of Agent Skills, written to the [Agent Skills](https://agentskills.io)
 specification so one copy works in every runtime that reads `SKILL.md`.
@@ -10,7 +10,7 @@ specification so one copy works in every runtime that reads `SKILL.md`.
   symlinks.
 - A skill's `name` must equal its directory name: 1-64 characters, lowercase `a-z0-9-`, no
   leading, trailing or doubled hyphen.
-- The `hd-` prefix is deliberate. These install alongside other skill sets, and runtimes that
+- The `sk-` prefix is deliberate. These install alongside other skill sets, and runtimes that
   merge several skill directories deduplicate by name.
 - Keep `SKILL.md` under 500 lines. Detail belongs in `references/`, which is loaded only when the
   skill needs it.

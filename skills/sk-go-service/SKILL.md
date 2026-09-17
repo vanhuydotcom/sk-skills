@@ -1,5 +1,5 @@
 ---
-name: hd-go-service
+name: sk-go-service
 description: Implement, extend or debug a handler, service or repository in a Go backend service, covering context propagation, error wrapping, transaction boundaries, tenancy scoping and table-driven tests. Use when writing or changing Go server code, adding an endpoint or gRPC method, touching a repository query, or diagnosing a panic, leak or flaky test in a Go service.
 license: MIT
 compatibility: Requires a Go toolchain; assumes a layered handler/service/repository codebase.

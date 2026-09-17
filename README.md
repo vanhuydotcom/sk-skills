@@ -1,4 +1,4 @@
-# hd-skills
+# sk-skills
 
 Personal [Agent Skills](https://agentskills.io) — one canonical copy, installed into every
 runtime that reads `SKILL.md`.
@@ -6,8 +6,8 @@ runtime that reads `SKILL.md`.
 ## Install
 
 ```bash
-git clone git@github.com:<user>/hd-skills.git ~/Admin/personal/hd-skills
-cd ~/Admin/personal/hd-skills
+git clone git@github.com:<user>/sk-skills.git ~/Admin/personal/sk-skills
+cd ~/Admin/personal/sk-skills
 
 ./install.sh --global        # available in every project
 ./install.sh ~/work/myrepo   # available in one project only
@@ -44,9 +44,9 @@ left alone.
 
 | Skill | Purpose |
 |---|---|
-| `hd-scout` | Find the files and call paths behind a task, read-only |
-| `hd-code-review` | Review a diff for correctness defects with reproducible triggers |
-| `hd-go-service` | Handler, service and repository work in a Go backend |
+| `sk-scout` | Find the files and call paths behind a task, read-only |
+| `sk-code-review` | Review a diff for correctness defects with reproducible triggers |
+| `sk-go-service` | Handler, service and repository work in a Go backend |
 
 ## Adding a skill
 
