@@ -15,7 +15,7 @@ jobs:
           pipx install skills-ref || pip install skills-ref
           fail=0
           for d in skills/*/; do
-            skills-ref validate "$d" || fail=1
+            agentskills validate "$d" || fail=1
           done
           exit $fail
 
