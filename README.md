@@ -6,8 +6,8 @@ runtime that reads `SKILL.md`.
 ## Install
 
 ```bash
-git clone git@github.com:<user>/sk-skills.git ~/Admin/personal/sk-skills
-cd ~/Admin/personal/sk-skills
+git clone https://github.com/vanhuydotcom/sk-skills.git ~/sk-skills
+cd ~/sk-skills
 
 ./install.sh --global        # available in every project
 ./install.sh ~/work/myrepo   # available in one project only
